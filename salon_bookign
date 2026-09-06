@@ -1,0 +1,33 @@
+-- ============================================================
+-- Electronic Waste Management System (EWMS) Database Schema
+-- Compatible with MySQL 5.7+ / 8.0+ & XAMPP / MariaDB
+-- ============================================================
+
+CREATE DATABASE IF NOT EXISTS `salon_booking` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE `salon_booking`;
+
+-- --------------------------------------------------------
+-- bookings
+-- --------------------------------------------------------
+CREATE TABLE bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    service VARCHAR(100) NOT NULL,
+    message TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+-- ============================================================
+-- SAMPLE DATA INSERTS
+-- ============================================================
+INSERT INTO bookings (name, phone, service, message) VALUES
+('sanika gherade','9172453456','Hair Color (L''Oréal)','I want to book an appointment for hair coloring.'),
+('Saloni karande','9172493647','Bridal Makeup','I would like to book bridal makeup for my wedding.'),
+('gayatri kumbhar','8794309909','Facial / Skin Treatment','I would like to book a facial treatment.'),
+('saloni gherade','9172486717','Manicure / Pedicure','I want to book a manicure and pedicure appointment.'),
+('priya patil','9798098671','Manicure / Pedicure','I would like to book a manicure and pedicure service.'),
+('pranali patil','9798090908','Bridal Bliss Package','I would like to book the Bridal Bliss Package.'),
+('prerana yadav','8897960978','Hair Cut & Styling','I want to book an appointment for hair cut and styling.'),
+('raha karande','8876984503','Hair Cut & Styling','I would like to book a hair cut and styling appointment.'),
+('vaishanvi patil','7712984503','Facial / Skin Treatment','I would like to book a facial and skin treatment.'),
+('sidhi shinde','7675889412','Bridal Bliss Package','I am interested in booking the Bridal Bliss Package.');
