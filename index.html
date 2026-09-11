@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raga Salon - Sangli's premier destination for haircare and makeup artistry.">
+
+    <title>Raha Salon | Hair · Skin · Makeup | Sangli</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/png" sizes="32x32" href="gallery/logo.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- ✅ Your External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="https://wa.me/919172486717" class="floating-badge" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <div class="logo-circle">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAvlLjvJR-DtDu0sD0tAYsbf15DuldxpNZIK5Mg5CVHXCdI0XTJgZ1lvo&s=10" alt="Raha Salon Logo"
+                        onerror="this.src='https://placehold.co/200x200/e67e22/white?text=S'">
+                </div>
+            </div>
+            <button class="mobile-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#" data-page="home" class="active-nav">Home</a></li>
+                    <li><a href="#" data-page="services">Services</a></li>
+                    <li><a href="#" data-page="packages">Packages</a></li>
+                    <li><a href="#" data-page="gallery">Gallery</a></li>
+                    <li><a href="#" data-page="testimonials">Reviews</a></li>
+                    <li><a href="#" data-page="contact">Visit Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page active">
+        <div class="hero-slider" id="heroSlider">
+            <div class="slide active"
+                style="background-image: url('gallery/slider1.webp');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Unlock Your Inner Beauty</h1>
+                    <p>Sangli's premier destination for haircare & makeup artistry.</p><a href="#" data-page="contact"
+                        class="btn">Book an Appointment →</a>
+                </div>
+            </div>
+            <div class="slide"
+                style="background-image: url('gallery/slider2.webp');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Trendy Haircuts & Bridal Makeovers</h1>
+                    <p>Expert stylists ready to transform your look.</p><a href="#" data-page="services"
+                        class="btn">Explore Services →</a>
+                </div>
+            </div>
+            <div class="slide"
+                style="background-image: url('gallery/slider3.jpg');">
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <h1>Certified Makeup Artist</h1>
+                    <p>L'Oréal Hair Colour Expert · Professional Treatments</p><a href="#" data-page="contact"
+                        class="btn">Book Bridal Consultation →</a>
+                </div>
+            </div>
+            <div class="slider-arrow prev" id="prevSlide"><i class="fas fa-chevron-left"></i></div>
+            <div class="slider-arrow next" id="nextSlide"><i class="fas fa-chevron-right"></i></div>
+            <div class="slider-nav" id="sliderDots"></div>
+        </div>
+
+        <div class="container">
+            <div class="offer-banner reveal">
+                <h2>✨ Bridal Special ✨</h2>
+                <p>Comprehensive bridal packages | Free trial session | Book now & get 15% off on pre-bridal packages
+                </p>
+            </div>
+
+            <div class="stats-grid reveal">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Brides</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">5-Star Reviews</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Hygiene Certified</div>
+                </div>
+            </div>
+
+            <div class="section-title reveal">
+                <h2>Why Raha Salon?</h2>
+                <p>Expertise. Elegance. Excellence.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-cut"></i></div>
+                    <h3>Expert Stylists</h3>
+                    <p>L'Oréal certified colour experts & professional makeup artists.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-ring"></i></div>
+                    <h3>Bridal Specialists</h3>
+                    <p>Stunning bridal makeovers & personalized packages.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-spa"></i></div>
+                    <h3>Premium Products</h3>
+                    <p>L'Oréal, Schwarzkopf & high-end skin treatments.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Flexible Hours</h3>
+                    <p>Open 11am–8pm (Tuesday closed). Walk-ins welcome.</p>
+                </div>
+            </div>
+
+            <div class="section-title reveal">
+                <h2>Signature Services</h2>
+                <p>Most loved by our clients</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-img"><img
+                            src="gallery/hs1.webp"
+                            alt="Hair Color"></div>
+                    <div class="service-content">
+                        <h3>Hair Color & Highlights</h3>
+                        <p class="service-description">Global, balayage, root touch-up with premium L'Oréal colors.</p>
+                        <div class="price-tag">Starting ₹1499</div>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-img"><img
+                            src="gallery/hs2.avif"
+                            alt="Facial"></div>
+                    <div class="service-content">
+                        <h3>Advanced Facials</h3>
+                        <p class="service-description">Hydra, O3, Gold & Wine Facial for radiant, glowing skin.</p>
+                        <div class="price-tag">Starting ₹899</div>
+                    </div>
+                </div>
+                <div class="service-card reveal">
+                    <div class="service-img"><img
+                            src="gallery/s5.heic"
+                            alt="Makeup"></div>
+                    <div class="service-content">
+                        <h3>Bridal Makeup</h3>
+                        <p class="service-description">Airbrush · HD finish · Draping & trial session.</p>
+                        <div class="price-tag">Customizable</div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-wrapper"><a href="#" data-page="services" class="btn-outline btn">View All Services
+                    →</a></div>
+
+            <div class="home-gallery-section">
+                <div class="section-title reveal">
+                    <h2>Our Glamour Gallery</h2>
+                    <p>Real transformations</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img
+                            src="gallery/g1.heic" alt="hair styling">
+                    </div>
+                    <div class="gallery-item"><img
+                            src="gallery/g5.jpg" alt="makeup"></div>
+                    <div class="gallery-item"><img
+                            src="gallery/g7.jpg" alt="nails"></div>
+                </div>
+                <div class="view-full-gallery"><a href="#" data-page="gallery" class="btn-outline btn">Full Gallery
+                        →</a></div>
+            </div>
+
+            <!-- REVIEW -->
+            <div class="review-slider-section reveal">
+                <div class="section-title">
+                    <h2>Client Love Stories ❤️</h2>
+                    <p>Real experiences from our beautiful clients</p>
+                </div>
+                
+                        <div class="review-slide">
+                            <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="review-text">"✨ Absolutely magical bridal experience! Nilam ma'am transformed me
+                                into a dream bride. The airbrush makeup lasted all day, and the draping was flawless.
+                                Every guest complimented my look. Highly recommend Raha for any bride-to-be! 💖"</p>
+                            <p class="review-author">– Priyanka Joshi</p>
+                            <p class="review-service">Bridal Makeup (Airbrush) • March 2025</p>
+                        </div>
+                        <!-- <div class="review-slide">
+                            <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                            <p class="review-text">"💇‍♀️ Got a L'Oréal hair color and hair spa — absolutely loving the
+                                shine and smoothness! The staff is so warm and professional. Saffron is my go-to salon
+                                in Sangli now! The color turned out exactly how I wanted."</p>
+                            <p class="review-author">– Snehal Karkhanis</p>
+                            <p class="review-service">Hair Color & Spa • April 2025</p>
+                        </div> -->
+                
+                
+            </div>
+
+            <div class="instagram-feed-preview reveal">
+                <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                <h3>Follow Our Glam Moments</h3>
+                <p>See real transformations & daily updates</p>
+                <a href="https://www.instagram.com/Raha_salon_sangli/" target="_blank"
+                    class="btn btn-instagram">@Raha_salon_sangli</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES PAGE -->
+    <section id="services" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Premium Services</h2>
+                <p>Hair · Skin · Makeup — Expert care with detailed treatments</p>
+            </div>
+            <div class="gallery-filter reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="hair">Hair</button>
+                <button class="filter-btn" data-filter="skin">Skin</button>
+                <button class="filter-btn" data-filter="bridal">Bridal/Makeup</button>
+                <button class="filter-btn" data-filter="nails">Nails/Wax</button>
+            </div>
+            <div class="services-grid" id="servicesGrid">
+                <div class="service-card" data-category="hair">
+                    <div class="service-img"><img
+                            src="gallery/s3.webp" alt="Haircut">
+                    </div>
+                    <div class="service-content">
+                        <h3>Haircut & Styling</h3>
+                        <p class="service-description">Professional precision haircut, blow-dry, and styling by expert
+                            stylists.</p>
+                        <div class="service-features"><span>✂️ Precision Cut</span><span>💨 Blow-dry</span><span>✨
+                                Texture Styling</span></div>
+                        <div class="price-tag">₹349+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            Now →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="hair">
+                    <div class="service-img"><img
+                            src="gallery/s8.jpg" alt="Color"></div>
+                    <div class="service-content">
+                        <h3>L'Oréal Hair Color</h3>
+                        <p class="service-description">Ammonia-free global color, highlights, balayage, and root
+                            touch-up.</p>
+                        <div class="service-features"><span>🎨 Global Color</span><span>✨ Highlights</span><span>🌿
+                                Ammonia Free</span></div>
+                        <div class="price-tag">₹1499+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="hair">
+                    <div class="service-img"><img
+                            src="gallery/s2.webp" alt="Hair Spa">
+                    </div>
+                    <div class="service-content">
+                        <h3>Hair Spa & Keratin</h3>
+                        <p class="service-description">Deep conditioning, smoothening, keratin treatment, and
+                            nanoplastia.</p>
+                        <div class="service-features"><span>💆‍♀️ Deep Conditioning</span><span>✨ Keratin</span><span>💎
+                                Smoothening</span></div>
+                        <div class="price-tag">₹2599+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="skin">
+                    <div class="service-img"><img
+                            src="gallery/s1.avif" alt="Facial"></div>
+                    <div class="service-content">
+                        <h3>Hydra / O3 Facial</h3>
+                        <p class="service-description">Deep cleansing, exfoliation, oxygen infusion & hydration.</p>
+                        <div class="service-features"><span>💧 Deep Hydration</span><span>✨ Instant
+                                Glow</span><span>🧖‍♀️ Painless</span></div>
+                        <div class="price-tag">₹1699+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="skin">
+                    <div class="service-img"><img
+                            src="gallery/s7.webp" alt="Gold Facial">
+                    </div>
+                    <div class="service-content">
+                        <h3>Gold & Wine Facial</h3>
+                        <p class="service-description">Luxury gold facial with 24K gold particles or wine antioxidants.
+                        </p>
+                        <div class="service-features"><span>✨ Gold Infusion</span><span>🍷 Wine Extract</span><span>🌸
+                                Anti-Aging</span></div>
+                        <div class="price-tag">₹899+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="bridal">
+                    <div class="service-img"><img
+                            src="gallery/s5.heic" alt="Bridal"></div>
+                    <div class="service-content">
+                        <h3>Bridal Makeup (Airbrush)</h3>
+                        <p class="service-description">Complete bridal transformation: HD/airbrush makeup, saree
+                            draping, hairstyling, and trial session.</p>
+                        <div class="service-features"><span>👰 HD Finish</span><span>💨 Airbrush</span><span>📸 Trial
+                                Included</span></div>
+                        <div class="price-tag">Custom</div><a href="#" data-page="contact"
+                            class="service-book-btn">Consult →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="bridal">
+                    <div class="service-img"><img
+                            src="gallery/g6.jpg" alt="Party"></div>
+                    <div class="service-content">
+                        <h3>Party & Engagement Makeup</h3>
+                        <p class="service-description">Glamorous makeup for receptions, engagements, festivals.</p>
+                        <div class="service-features"><span>✨ Glam Look</span><span>💄 Professional</span><span>🎭
+                                Custom Style</span></div>
+                        <div class="price-tag">₹1999+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="nails">
+                    <div class="service-img"><img
+                            src="gallery/s4.webp" alt="Nails"></div>
+                    <div class="service-content">
+                        <h3>Manicure / Pedicure</h3>
+                        <p class="service-description">Luxury hand and foot care including cuticle treatment, massage,
+                            nail shaping, and paraffin wax.</p>
+                        <div class="service-features"><span>💅 Spa Manicure</span><span>🦶 Pedicure</span><span>✨
+                                Paraffin Wax</span></div>
+                        <div class="price-tag">₹499+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+                <div class="service-card" data-category="nails">
+                    <div class="service-img"><img
+                            src="gallery/s6.webp" alt="Waxing"></div>
+                    <div class="service-content">
+                        <h3>Waxing Services</h3>
+                        <p class="service-description">Full body, facial waxing, and bikini wax using premium
+                            hypoallergenic wax.</p>
+                        <div class="service-features"><span>🧴 Full Body</span><span>🌸 Facial Wax</span><span>✨ Premium
+                                Wax</span></div>
+                        <div class="price-tag">₹399+</div><a href="#" data-page="contact" class="service-book-btn">Book
+                            →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-combo-packages"><a href="#" data-page="packages" class="btn">View Exclusive Packages →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PACKAGES PAGE -->
+    <section id="packages" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Luxury Packages</h2>
+                <p>Complete pampering at best value</p>
+            </div>
+            <div class="offer-banner reveal">
+                <h2>🔥 Bridal Glow Package 🔥</h2>
+                <p>Bridal makeup + Hairdo + Facial + Mehendi — 20% off</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3>Silk Package</h3>
+                        <div class="price-tag">₹1599</div>
+                        <p>Any 3 Services (Hair + Facial + Wax)</p><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3>Gold Package</h3>
+                        <div class="price-tag">₹2799</div>
+                        <p>Hair Color + Facial + Manicure + Pedicure</p><a href="#" data-page="contact"
+                            class="service-book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3>Bridal Bliss</h3>
+                        <div class="price-tag">₹7999+</div>
+                        <p>HD Makeup + Hairstyling + Saree Draping + Mehendi</p><a href="#" data-page="contact"
+                            class="service-book-btn">Enquire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY PAGE -->
+    <section id="gallery" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Our Creations</h2>
+                <p>Real transformations by Nilam & team</p>
+            </div>
+            <div class="gallery-filter reveal"><button class="filter-btn active" data-filter="all">All</button><button
+                    class="filter-btn" data-filter="hair">Hair</button><button class="filter-btn"
+                    data-filter="makeup">Makeup</button><button class="filter-btn" data-filter="bridal">Bridal</button>
+            </div>
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-category="hair"><img
+                        src="gallery/g7.jpg" alt="Hair">
+                    <div class="gallery-overlay">
+                        <p>Hair Styling</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="hair"><img
+                        src="gallery/g1.heic" alt="Color">
+                    <div class="gallery-overlay">
+                        <p>Hair Color</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="makeup"><img
+                        src="gallery/g4.jpg" alt="Makeup">
+                    <div class="gallery-overlay">
+                        <p>Party Makeup</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal"><img
+                        src="gallery/g6.jpg" alt="Bridal">
+                    <div class="gallery-overlay">
+                        <p>Bridal Look</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="makeup"><img
+                        src="gallery/g5.jpg" alt="Glam">
+                    <div class="gallery-overlay">
+                        <p>Glam Makeup</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="bridal"><img
+                        src="gallery/g3.heic" alt="Mehendi">
+                    <div class="gallery-overlay">
+                        <p>Bridal Mehendi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="lightbox" class="lightbox"
+            style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:2000; justify-content:center; align-items:center;">
+            <span class="lightbox-close"
+                style="position:absolute; top:20px; right:35px; font-size:40px; color:white; cursor:pointer;">&times;</span><img
+                id="lightbox-img" style="max-width:90%; max-height:90%;"></div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Client Love</h2>
+                <p>Stories from our beautiful clients</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Absolutely loved my bridal makeup! Nilam ma'am understood my vision perfectly. Highly
+                        professional!"</p>
+                    <h4>– Pooja S.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Best salon in Sangli. L'Oréal hair color turned out fantastic. Staff is courteous and hygienic."
+                    </p>
+                    <h4>– Snehal K.</h4>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Great experience for engagement makeup. Everyone complimented my look. Thank you Saffron!"</p>
+                    <h4>– Ankita D.</h4>
+                </div>
+            </div>
+            <div class="follow-instagram"><a href="https://www.instagram.com/Raha_salon_sangli/" target="_blank"
+                    class="btn-outline btn"><i class="fab fa-instagram"></i> Follow @Raha_salon_sangli</a></div>
+        </div>
+    </section>
+
+    <!-- CONTACT & INFO -->
+    <section id="contact" class="page">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Visit Us / Book Appointment</h2>
+                <p>Step into Raha & feel the elegance</p>
+            </div>
+            <div class="contact-flex">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h3>Our Studio</h3>
+                            <p>pvpit bhudhagoan, Sangli,
+                                Maharashtra 416416</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h3>Call / WhatsApp</h3>
+                            <p><strong>09172486717</strong></p><a href="https://wa.me/919172486717"
+                                class="whatsapp-link">Chat on WhatsApp →</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h3>Opening Hours</h3>
+                            <div class="timing-box">
+                                <p>Sunday – Monday: 11am – 8pm</p>
+                                <p>Tuesday: Closed</p>
+                                <p>Wednesday – Saturday: 11am – 8pm</p><small>*Friday hours may differ on
+                                    holidays</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="badge-owner"><i class="fas fa-crown"></i> Owner: Nilam Nadaf | L'Oréal Hair Colour
+                        Expert | Certified MUA</div>
+                    <div class="social-links"><a href="https://www.facebook.com/Rahasalonsangli" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a><a
+                            href="https://www.instagram.com/Raha_salon_sangli/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></div>
+                </div>
+                <div class="contact-form-box">
+                    <form id="bookingForm" action="send-booking.php" method="POST">
+                        <!-- <input type="hidden" name="access_key" value="533feccf-6bdc-41aa-9f10-9736c50f2201"> -->
+                        <div class="form-group"><input type="text" name="name" placeholder="Full Name" required></div>
+                        <div class="form-group"><input type="tel" name="phone" placeholder="Mobile Number" required>
+                        </div>
+                        <div class="form-group"><select name="service">
+                                <option value="">Select Service/Package</option>
+                                <option>Hair Cut & Styling</option>
+                                <option>Hair Color (L'Oréal)</option>
+                                <option>Bridal Makeup</option>
+                                <option>Facial / Skin Treatment</option>
+                                <option>Manicure / Pedicure</option>
+                                <option>Gold Package</option>
+                                <option>Bridal Bliss Package</option>
+                            </select></div>
+                        <div class="form-group"><textarea name="message" rows="3"
+                                placeholder="Preferred date & time"></textarea></div>
+                        <button type="submit" class="btn">Book Appointment</button>
+                    </form>
+                </div>
+            </div>
+            <iframe
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.2633302544286!2d74.6053261!3d16.9122979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc13d67bd5d5e71%3A0xbef8383a5ff7ed0e!2sPadmabhooshan%20Vasantraodada%20Patil%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1786516082224!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+                allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-circle footer-logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAvlLjvJR-DtDu0sD0tAYsbf15DuldxpNZIK5Mg5CVHXCdI0XTJgZ1lvo&s=10" alt="Raha"></div>
+                    <p>Raha Salon — Where beauty meets artistry.</p>
+                    <div class="social-links"><a href="https://www.instagram.com/Raha_salon_sangli/"><i
+                                class="fab fa-instagram"></i></a><a
+                            href="https://www.facebook.com/Rahasalonsangli"><i class="fab fa-facebook-f"></i></a><a
+                            href="https://wa.me/919172486717"><i class="fab fa-whatsapp"></i></a></div>
+                </div>
+                <div>
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#" data-page="home">Home</a></li>
+                        <li><a href="#" data-page="services">Services</a></li>
+                        <li><a href="#" data-page="packages">Packages</a></li>
+                        <li><a href="#" data-page="contact">Book Now</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-phone-alt"></i> 9172486717</p>
+                    <p><i class="fas fa-envelope"></i> Rahasalon@gmail.com</p>
+                    <a href="#" data-page="contact" class="btn-appointment">Get Appointment</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Raha Salon — bhudhagoan's Premier Hair & Makeup Studio</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hero Slider
+        const slides = document.querySelectorAll('.hero-slider .slide');
+        let currentSlide = 0, slideInterval;
+        function goToSlide(i) { slides[currentSlide]?.classList.remove('active'); currentSlide = (i + slides.length) % slides.length; slides[currentSlide]?.classList.add('active'); updateDots(); resetInterval(); }
+        function updateDots() { document.querySelectorAll('.slider-dot').forEach((dot, i) => { i === currentSlide ? dot.classList.add('active') : dot.classList.remove('active'); }); }
+        function nextSlide() { goToSlide(currentSlide + 1); }
+        function prevSlide() { goToSlide(currentSlide - 1); }
+        function resetInterval() { if (slideInterval) clearInterval(slideInterval); slideInterval = setInterval(nextSlide, 5000); }
+        if (slides.length) { const dotsContainer = document.getElementById('sliderDots'); dotsContainer.innerHTML = ''; slides.forEach((_, i) => { let dot = document.createElement('div'); dot.classList.add('slider-dot'); if (i === currentSlide) dot.classList.add('active'); dot.addEventListener('click', () => goToSlide(i)); dotsContainer.appendChild(dot); }); document.getElementById('nextSlide')?.addEventListener('click', nextSlide); document.getElementById('prevSlide')?.addEventListener('click', prevSlide); resetInterval(); document.getElementById('heroSlider')?.addEventListener('mouseenter', () => clearInterval(slideInterval)); document.getElementById('heroSlider')?.addEventListener('mouseleave', resetInterval); }
+
+        // Page Navigation
+        const pages = document.querySelectorAll('.page');
+        function switchPage(pageId) { pages.forEach(p => p.classList.remove('active')); document.getElementById(pageId)?.classList.add('active'); window.scrollTo({ top: 0 }); if (window.innerWidth <= 850) document.getElementById('navbar')?.classList.remove('active'); document.querySelectorAll('nav a').forEach(link => { if (link.getAttribute('data-page') === pageId) link.classList.add('active-nav'); else link.classList.remove('active-nav'); }); }
+        document.querySelectorAll('[data-page]').forEach(el => { if (el.tagName === 'A') el.addEventListener('click', (e) => { e.preventDefault(); const page = el.getAttribute('data-page'); if (page) switchPage(page); }); });
+        document.getElementById('menuToggle')?.addEventListener('click', () => document.getElementById('navbar')?.classList.toggle('active'));
+
+        // Reveal Animation
+        const reveal = document.querySelectorAll('.reveal');
+        function checkReveal() { reveal.forEach(el => { if (el.getBoundingClientRect().top < window.innerHeight - 100) el.classList.add('active'); }); }
+        window.addEventListener('scroll', checkReveal); checkReveal();
+
+        // Filter for services and gallery
+        const filterBtns = document.querySelectorAll('.gallery-filter .filter-btn');
+        filterBtns.forEach(btn => { btn.addEventListener('click', () => { filterBtns.forEach(b => b.classList.remove('active')); btn.classList.add('active'); const filter = btn.getAttribute('data-filter'); document.querySelectorAll('.service-card').forEach(item => { const cat = item.getAttribute('data-category'); if (filter === 'all' || cat === filter) item.style.display = 'block'; else item.style.display = 'none'; }); if (document.getElementById('galleryGrid')) { document.querySelectorAll('#galleryGrid .gallery-item').forEach(item => { const cat = item.getAttribute('data-category'); if (filter === 'all' || cat === filter) item.style.display = 'block'; else item.style.display = 'none'; }); } }); });
+
+        // Lightbox
+        const lightbox = document.getElementById('lightbox'), lightboxImg = document.getElementById('lightbox-img');
+        document.querySelectorAll('.gallery-item').forEach(item => { item.addEventListener('click', () => { if (lightbox) { const img = item.querySelector('img').src; lightboxImg.src = img; lightbox.style.display = 'flex'; } }); });
+        if (lightbox) lightbox.addEventListener('click', (e) => { if (e.target === lightbox || e.target.classList.contains('lightbox-close')) lightbox.style.display = 'none'; });
+
+        // Form
+        const form = document.getElementById('bookingForm'); if (form) { form.addEventListener('submit', async (e) => { e.preventDefault(); const btn = form.querySelector('button'), orig = btn.innerText; btn.innerText = 'Sending...'; btn.disabled = true; try { const fd = new FormData(form); const res = await fetch(form.action, { method: 'POST', body: fd }); const data = await res.json(); if (data.success) alert('✅ Booking request sent! We will call you shortly.'); else alert('Please call 08888318998 to book directly.'); } catch (err) { alert('Call us directly at 08888318998'); } finally { btn.innerText = orig; btn.disabled = false; } }); }
+    </script>
+</body>
+
+</html>
